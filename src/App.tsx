@@ -1,7 +1,7 @@
 //import clsx from 'clsx';
 
 //Components
-import Logo from "./components/Logo";
+import AppHeader from "./components/AppHeader";
 
 //Styles
 //import classes from './App.module.css';
@@ -10,7 +10,7 @@ import Logo from "./components/Logo";
 function App() {
   return (
     <>
-        <Logo />
+        <AppHeader />
     </>
   )
 }
