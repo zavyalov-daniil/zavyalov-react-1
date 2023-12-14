@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 41px;
+    height: 41px;
+    background-color: #458FF6;
+    border-radius: 50%;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+    font-family: 'Mulish';
+    font-weight: 700;
+}
+
+.text {
+    color: #233348;
+    font-size: 24px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    word-wrap: break-word;
+    padding-left: 12px;
+}
