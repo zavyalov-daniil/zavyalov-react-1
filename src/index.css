@@ -4,11 +4,9 @@
 :root {
   --main-text-color: rgba(255, 255, 255, 0.87);
   --main-bg-color: #242424;
-  --link-color: #646cff;
-  --link-hover-color: #535bf2;
-  --main-button-bg-color: #1a1a1a;
-  --main-button-hover-border-color: #646cff;
-
+  --second-color: #458FF6;
+  --logo-texr-color: #233348;
+  --header-text-color: #1F1534;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   #line-height: 1.5;

@@ -24,7 +24,7 @@
 
 .navigationElement {
     margin-left: 40px;
-    color: #1F1534;
+    color: var(--header-text-color);
     font-family: Mulish, sans-serif;
     font-size: 18px;
     font-style: normal;
