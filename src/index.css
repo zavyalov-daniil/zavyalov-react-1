@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 :root {
-  --main-text-color: rgba(255, 255, 255, 0.87);
+  --main-text-color: black;
+  --second-text-color: #7D7987;
+  --header-text-color: #1F1534;
+
   --main-bg-color: white;
   --second-color: #458FF6;
   --logo-texr-color: #233348;
-  --header-text-color: #1F1534;
 
   #line-height: 1.5;
   #font-weight: 400;

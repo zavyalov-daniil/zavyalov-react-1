@@ -1,0 +1,39 @@
+.mainInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 80px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 106px;
+    padding-right: 127px;
+    width: 427px;
+}
+
+.headingText {
+    color: var(--main-text-color);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text {
+    color: var(--second-text-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-top: 25px;
+    padding-bottom: 48px;
+}
+
+.bgElement {
+    position: absolute;
+    left: 0;
+    top: 160px;
+}
