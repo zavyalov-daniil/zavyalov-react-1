@@ -11,23 +11,23 @@ const AppHeader: React.FC = () => {
             <nav className={classes.navigation}>
                 <a className={
                     clsx(classes.navigationElement,
-                        classes.bold)
+                        classes.boldFont)
                 }>Home</a>
                 <a className={
                     clsx(classes.navigationElement,
-                        classes.regular)
+                        classes.regularFont)
                 }>Find a doctor</a>
                 <a className={
                     clsx(classes.navigationElement,
-                        classes.regular)
+                        classes.regularFont)
                 }>Apps</a>
                 <a className={
                     clsx(classes.navigationElement,
-                        classes.regular)
+                        classes.regularFont)
                 }>Testimonials</a>
                 <a className={
                     clsx(classes.navigationElement,
-                        classes.regular)
+                        classes.regularFont)
                 }>About us</a>
             </nav>
         </header>

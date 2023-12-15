@@ -1,31 +1,29 @@
 .appHeader {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
 .logo {
-    #margin-right: auto;
 }
 
 .navigation {
     display: flex;
 }
 
-.bold {
+.boldFont {
     font-weight: 700;
 }
 
-.regular {
+.regularFont {
     font-weight: 400;
 }
 
 .navigationElement {
     margin-left: 40px;
     color: var(--header-text-color);
-    font-family: Mulish, sans-serif;
+
     font-size: 18px;
     font-style: normal;
     line-height: normal;
