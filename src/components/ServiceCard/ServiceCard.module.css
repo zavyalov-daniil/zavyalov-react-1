@@ -1,0 +1,21 @@
+.serviceCard {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0 var(--shadow-color);
+    padding: 46px 50px 47px 38px;
+}
+
+.heading {
+    color: var(--main-text-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.textContent {
+    color: var(--second-text-color);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}

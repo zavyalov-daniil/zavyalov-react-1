@@ -10,6 +10,8 @@
   --second-color: #458FF6;
   --logo-texr-color: #233348;
 
+  --shadow-color: rgba(229, 233, 246, 0.40);
+
   font-family: Mulish, sans-serif;
 
   color-scheme: light dark;
