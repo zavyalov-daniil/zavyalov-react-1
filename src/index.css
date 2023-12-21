@@ -10,8 +10,6 @@
   --second-color: #458FF6;
   --logo-texr-color: #233348;
 
-  #line-height: 1.5;
-  #font-weight: 400;
   font-family: Mulish, sans-serif;
 
   color-scheme: light dark;
@@ -25,20 +23,12 @@
 }
 
 #root {
-  width: 100%;
+  width: auto;
   padding: 56px 192px 0 191px;
+  min-width: 800px;
+  min-height: 600px;
   #max-width: 1280px;
   #margin: 0 auto;
   #padding: 2rem;
   #text-align: center;
-}
-
-
-body {
-  margin: 0;
-  display: flex;
-  width: 100%;
-  #place-items: center;
-  #min-width: 320px;
-  #min-height: 100vh;
 }

@@ -14,7 +14,7 @@ const MainInfo: React.FC = () => {
             <HeaderText/>
             <img
                 src={headerIllustration}
-                className={clsx(classes.logo, classes.react)}
+                className={clsx(classes.image)}
                 alt="React logo"
             />
             <img

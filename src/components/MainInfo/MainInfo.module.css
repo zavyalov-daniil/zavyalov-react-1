@@ -1,6 +1,7 @@
 .mainInfo {
     display: flex;
     justify-content: space-between;
+    align-items: start;
     width: 100%;
     padding-top: 80px;
 }
@@ -10,9 +11,11 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding-top: 106px;
-    padding-right: 127px;
-    width: 427px;
+    width: 35%;
+    min-width: 350px;
+    margin-top: 106px;
+    margin-right: 10%;
+    #width: 427px;
 }
 
 .headingText {
@@ -30,6 +33,14 @@
     line-height: 32px;
     padding-top: 25px;
     padding-bottom: 48px;
+}
+
+.image {
+    #max-width: 80%;
+    #min-width: 2em;
+    width: 55%;
+    #width: 693px;
+    #height: 100%;
 }
 
 .bgElement {
