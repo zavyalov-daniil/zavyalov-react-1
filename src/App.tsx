@@ -3,18 +3,17 @@
 //Components
 import AppHeader from "./components/AppHeader";
 import MainInfo from "./components/MainInfo";
-import ServiceCard from "./components/ServiceCard";
 
 //Styles
 //import classes from './App.module.css';
-
+import Services from "./components/Services";
 
 function App() {
   return (
     <>
         <AppHeader />
         <MainInfo />
-        <ServiceCard />
+        <Services />
     </>
   )
 }

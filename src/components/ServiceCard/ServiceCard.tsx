@@ -1,21 +1,27 @@
 import React from "react";
 
 import classes from './ServiceCard.module.css'
-import img1 from '../../assets/service_care.svg'
 
-const ServiceCard: React.FC = () => {
+interface ServiceCardProps {
+    image: string;
+    heading: string;
+    textContent: string;
+}
 
+const ServiceCard: React.FC<ServiceCardProps> = ({ image , heading, textContent }) => {
     return (
         <article className={classes.serviceCard}>
-            <img
-                src={img1}
-                className={classes.image}
-                alt="Service image"
-            />
-            <h3 className={classes.heading}>Search doctor</h3>
-            <p className={classes.textContent}>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            <div className={classes.imageContainer}>
+                <img
+                    src={image}
+                    className={classes.image}
+                    alt="Service image"
+                />
+            </div>
+            <h3 className={classes.heading}>{heading}</h3>
+            <p className={classes.textContent}>{textContent}</p>
         </article>
-    )
+)
 }
 
 export default ServiceCard;
