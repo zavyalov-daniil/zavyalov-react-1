@@ -10,6 +10,8 @@
   --second-color: #458FF6;
   --logo-texr-color: #233348;
 
+  --shadow-color: rgba(229, 233, 246, 0.40);
+
   font-family: Mulish, sans-serif;
 
   color-scheme: light dark;
@@ -22,9 +24,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.commonTextStyle {
+  color: var(--second-text-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.commonHeadingStyle {
+  color: var(--main-text-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
 #root {
   width: auto;
-  padding: 56px 192px 0 191px;
+  padding: 56px 163px 0 191px;
   min-width: 800px;
   min-height: 600px;
   #max-width: 1280px;

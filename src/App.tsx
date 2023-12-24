@@ -6,13 +6,14 @@ import MainInfo from "./components/MainInfo";
 
 //Styles
 //import classes from './App.module.css';
-
+import Services from "./components/Services";
 
 function App() {
   return (
     <>
         <AppHeader />
         <MainInfo />
+        <Services />
     </>
   )
 }
