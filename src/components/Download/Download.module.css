@@ -1,0 +1,38 @@
+.downloads {
+    display: flex;
+    padding-top: 229px;
+}
+
+.image {
+    max-width: 50%;
+    padding-left: 71px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 145px;
+}
+
+.headingPaddings {
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+
+.textPaddings {
+    padding-top: 31px;
+    padding-bottom: 40px;
+}
+
+.button {
+    background-color: var(--main-bg-color);
+    color: var(--second-color);
+    border-color: var(--second-color);
+}
+
+.bgElement {
+    position: absolute;
+    right: 0;
+    top: 2783px;
+    z-index: -1;
+}
