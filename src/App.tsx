@@ -7,6 +7,7 @@ import MainInfo from "./components/MainInfo";
 //Styles
 //import classes from './App.module.css';
 import Services from "./components/Services";
+import Providers from "./components/Providers";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <AppHeader />
         <MainInfo />
         <Services />
+        <Providers />
     </>
   )
 }

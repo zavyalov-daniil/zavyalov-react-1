@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import CustomButton from "../CustomButton";
+import CustomButton from "../common/CustomButton";
 
 //Styles
 import classes from './MainInfo.module.css'

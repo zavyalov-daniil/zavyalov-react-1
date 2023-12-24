@@ -1,10 +1,10 @@
 import React from "react";
 
 import classes from './Services.module.css'
-import ServiceCard from "../ServiceCard";
-import Divider from "../Divider";
+import ServiceCard from "../common/ServiceCard";
+import Divider from "../common/Divider";
 import clsx from "clsx";
-import CustomButton from "../CustomButton";
+import CustomButton from "../common/CustomButton";
 //Assets
 import serviceSearch from "../../assets/service_search.svg";
 import serviceCare from "../../assets/service_care.svg";

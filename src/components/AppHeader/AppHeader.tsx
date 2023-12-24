@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Logo";
+import Logo from "../common/Logo";
 import classes from "./AppHeader.module.css"
 import clsx from "clsx";
 
