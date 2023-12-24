@@ -28,4 +28,16 @@
     margin-top: 72px;
 }
 
+.bgElement {
+    position: absolute;
+    top: 1511px;
+    right: 190px;
+    z-index: -1;
+}
 
+.bgVector {
+    position: absolute;
+    left: 0;
+    top: 965px;
+    z-index: -2;
+}

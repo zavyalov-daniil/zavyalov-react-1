@@ -2,15 +2,18 @@ import React from "react";
 
 import classes from './Services.module.css'
 import ServiceCard from "../ServiceCard";
+import Divider from "../Divider";
+import clsx from "clsx";
+import CustomButton from "../CustomButton";
+//Assets
 import serviceSearch from "../../assets/service_search.svg";
 import serviceCare from "../../assets/service_care.svg";
 import serviceOnline from "../../assets/service_online.svg";
 import serviceConsultation from "../../assets/service_consultation.svg";
 import serviceInfo from "../../assets/service_details.svg"
 import serviceTracking from "../../assets/service_tracking.svg"
-import Divider from "../Divider";
-import clsx from "clsx";
-import CustomButton from "../CustomButton";
+import bgElement from "../../assets/element2.svg"
+import bgVector from "../../assets/vector.svg"
 
 const Services: React.FC = () => {
     const cardData = [
@@ -53,14 +56,24 @@ const Services: React.FC = () => {
     return (
         <section className={classes.services}>
             <text className={clsx("commonHeadingStyle", classes.headingPaddings)}>Our services</text>
-            <Divider />
+            <Divider/>
             <text className={clsx("commonTextStyle", classes.textPaddings)}>
                 We provide to you the best choices for you.
                 Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors
                 you can consult with us which type of service is suitable for your health
             </text>
-            <div className={classes.serviceCards}>{ cardComponents }</div>
-            <CustomButton text={"Learn more"} className = {classes.button} />
+            <div className={classes.serviceCards}>{cardComponents}</div>
+            <CustomButton text={"Learn more"} className={classes.button}/>
+            <img
+                src={bgElement}
+                className={classes.bgElement}
+                alt="Bg element"
+            />
+            <img
+                src={bgVector}
+                className={classes.bgVector}
+                alt="Bg vector"
+            />
         </section>
     )
 }

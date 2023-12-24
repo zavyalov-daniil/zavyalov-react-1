@@ -3,6 +3,7 @@
     height: 354px;
     border-radius: 20px;
     box-shadow: 10px 40px 50px 0 var(--shadow-color);
+    background-color: var(--main-bg-color);
     padding: 46px 50px 47px 38px;
     box-sizing: border-box;
 }
