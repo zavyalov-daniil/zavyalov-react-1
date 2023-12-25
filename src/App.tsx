@@ -9,8 +9,7 @@ import MainInfo from "./components/MainInfo";
 import Services from "./components/Services";
 import Providers from "./components/Providers";
 import Download from "./components/Download";
-import Slide from "./components/common/Slide";
-import userPhoto from "./assets/user_photo.png";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -20,15 +19,7 @@ function App() {
         <Services />
         <Providers />
         <Download />
-        <Slide
-            headingText={"What our customer are saying"}
-            mainText={"“Our dedicated patient engagement app and \n" +
-                "web portal allow you to access information instantaneously (no tedeous form, long calls, \n" +
-                "or administrative hassle) and securely”"}
-            userPhoto={userPhoto}
-            userName={"Edward Newgate"}
-            userRole={"Founder Circle"}
-        />
+        <Slider />
     </>
   )
 }
