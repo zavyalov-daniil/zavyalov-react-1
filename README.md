@@ -8,6 +8,10 @@
 - node: 21.4.0
 - npm: 10.2.5
 
-### Скриншот текущего результата будет тут :point_down:
+### Текущий результат :point_down:
 
-Если тут ничего нет, значит оно есть в ветке develop 
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)

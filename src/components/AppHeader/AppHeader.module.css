@@ -1,0 +1,30 @@
+.appHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+}
+
+.navigation {
+    display: flex;
+}
+
+.boldFont {
+    font-weight: 700;
+}
+
+.regularFont {
+    font-weight: 400;
+}
+
+.navigationElement {
+    margin-left: 40px;
+    color: var(--header-text-color);
+
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}

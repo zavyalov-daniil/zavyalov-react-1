@@ -1,0 +1,21 @@
+.slider {
+    display: flex;
+    padding-top: 266px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.control {
+    padding-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.slideLeft {
+    padding-right: 90px;
+}
+
+.slideRight {
+    padding-left: 90px;
+}

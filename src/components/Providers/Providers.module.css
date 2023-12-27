@@ -1,0 +1,37 @@
+.providers {
+    display: flex;
+    padding-top: 220px;
+}
+
+.image {
+    max-width: 50%;
+    padding-right: 142px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.headingPaddings {
+    padding-top: 57px;
+    padding-bottom: 26px;
+}
+
+.textPaddings {
+    padding-top: 31px;
+    padding-bottom: 70px;
+}
+
+.button {
+    background-color: var(--main-bg-color);
+    color: var(--second-color);
+    border-color: var(--second-color);
+}
+
+.bgElement {
+    position: absolute;
+    right: 0;
+    top: 2783px;
+    z-index: -1;
+}

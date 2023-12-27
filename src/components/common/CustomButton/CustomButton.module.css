@@ -1,0 +1,18 @@
+.customButton {
+    height: 56px;
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 55px;
+    border: 1px solid;
+}
+
+.defaultBgAndPadding {
+    color: var(--main-bg-color);
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+}

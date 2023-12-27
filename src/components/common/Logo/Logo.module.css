@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 41px;
+    height: 41px;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-bg-color);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text {
+    color: var(--logo-texr-color);
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding-left: 12px;
+}
